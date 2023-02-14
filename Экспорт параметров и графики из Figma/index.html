@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Архитектурный блог</title>
+</head>
+<body>
+    <header class="container">
+        <nav class="header-nav">
+            <a class="header-nav-logo">
+                <img src="img/logo.svg" width="370" height="40" alt="Архитектурный блог">
+            </a>
+            <ul class="header-nav-list">
+                <li class="header-nav-list-item">
+                    <a href="#modern-buildings">Современные здания</a>
+                </li>
+                <li class="header-nav-list-item">
+                    <a href="#old-buildings">Старинные здания</a>
+                </li>
+                <li class="header-nav-list-item">
+                    <a href="#">Последник проекты</a>
+                </li>
+                <li class="header-nav-list-item">
+                    <a href="">Архитектурные новости</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <h1 class="visually-hidden">Архитектурный блог</h1>
+        <section class="slider">
+            <h2 class="visually-hidden">Слайдер</h2>
+            <div class="slides">
+                <div class="current-slide">
+                    <h3 class="current-slide-header">Самые актуальные архитектурные новости</h3>
+                    <img src="img/current-buildings.png" width="780" height="490" alt="Самые актуальные архитектурные новости">
+                    <a class="current-button button" href="#">Смотреть</a>
+                    <p class="current-slide-number">02</p>
+                </div>
+                <div class="slide">
+                    <h3 class="slide-header">Архитектурная мода 2019 года</h3>
+                    <img src="img/architectural-fashion.png" width="374" height="241" alt="Архитектурная мода 2019 года">
+                    <a class="slide-button button" href="#">Смотреть</a>
+                </div>
+                <div class="slide">
+                    <h3 class="slide-header">Современные строения</h3>
+                    <img src="img/modern-buildings.png" width="374" height="242" alt="Современные строения">
+                    <a class="slide-button button" href="#">Смотреть</a>
+                </div>
+            </div>
+
+            <div class="slider-ovals">
+                <div class="slider-oval"></div>
+                <div class="slider-oval active"></div>
+                <div class="slider-oval"></div>
+                <div class="slider-oval"></div>
+            </div>
+
+
+            
+        </section>
+        <section class="buildings-section">
+            <h2 id="modern-buildings" class="header-section">Современные здания</h2>
+            <div class="modern-buildings-slides">
+                <div class="modern-current-slide">
+                    <img src="img/office-buildings-sasha-yudaev.png" width="404" height="623" alt="Офисные здания Sasha Yudaev">
+                    <p class="building-header"><a href="#">Офисные здания</a></p>
+                </div>
+                <div class="modern-slide">
+                    <img src="img/living-premises1-yann-allegre.png" width ="332" height ="292" alt="Жилые помещения Yann Allegre">
+                    <img src="img/living-premises2-jude-beck.png" width ="363" height ="292" alt="Жилые помещения Jude Beck">
+                    <div class="modern-slide-bottom">
+                        <img src="img/living-premises3-mark-boss.png" width ="715" height ="245" alt="Жилые помещения Mark Boss">
+                    </div>
+                    <p class="building-header"><a href="#">Жилые помещения</a></ыфз>
+                </div>
+            </div>
+        </section>
+        <section class="mailing-list">
+            <div class="mailing-list-form container">
+                <h2 class="mailing-list-header">Подпишитесь на нашу e-mail рассылку</h2>
+                <form class="mailing-list-email">
+                    <input class="email" type="email" placeholder="Введите Ваш e-mail">
+                    <input class="submit" type="submit" value="Подписаться">
+                </form>
+            </div>
+        </section>
+        <section class="buildings-section">
+            <h2 id="old-buildings" class ="header-section">Старинные здания</h2>
+            <div class="old-buildings-slides">
+                <div class="old-buildings-current-slide">
+                    <img src="img/religious-buildings-krishna-moorthy.png" width="579" height="386" alt="Религиозные здания Krishna Moorthy">
+                    <p class="building-header"><a href="#">Религиозные здания</a></p>
+                </div>
+                <div class="old-buildings-slide">
+                    <div class="old-buildings-slide-top">
+                        <img src="img/tourist-buildings1-ashim-d-silva.png" width="303" height ="200" alt="Туристические здания Ashim D Silva">
+                    <img src="img/tourist-buildings2-yeo-khee.png" width="303" height ="133" alt="Туристические здания Yeo Khee">
+                    </div>
+                    <img src="img/tourist-buildings3-filip-gielda.png" width="217" height ="346" alt="Туристические здания Filip Gielda">
+                    <p class="building-header"><a href="#">Туристические здания</a></p>
+                </div>
+            </div>
+        </section>
+        <section class="mailing-list">
+            <div class="mailing-list-form">
+                <h2 class="mailing-list-header">Подпишитесь на нашу e-mail рассылку</h2>
+                <form class="mailing-list-email">
+                    <input type="email" placeholder="Введите Ваш e-mail">
+                    <input type="submit" value="Подписаться">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="container">
+        <div class="socials">
+            <ul class="social-links">
+                <li class="social-links-item">
+                    <a href="https://ru-ru.facebook.com/">
+                        <img src="img/Facebook.svg" alt="Фейсбук">
+                    </a>
+                </li>
+                <li class="social-links-item">
+                    <a href="https://twitter.com/">
+                        <img src="img/Twitter.svg" alt="Твиттер">
+                    </a>
+                </li>
+                <li class="social-links-item">
+                    <a href="https://instagram.com/">
+                        <img src="img/Instagram.svg" alt="Инстаграм">
+                    </a>
+                </li>
+                <li class="social-links-item">
+                    <a href="https://pinterest.com/">
+                        <img src="img/Pinterest.svg" alt="Пинтерест">
+                    </a>
+                </li>
+                <li class="social-links-item">
+                    <a href="https://google.com/">
+                        <img src="img/Google.svg" alt="Гугл">
+                    </a>
+                </li>
+                <li class="social-links-item">
+                    <a href="https://spotify.com/">
+                        <img src="img/Spotify.svg" alt="Спотифай">
+                    </a>
+                </li>
+                <li class="social-links-item">
+                    <a href="https://tumblr.com/">
+                        <img src="img/Tumblr.svg" alt="Тумблер">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

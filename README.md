@@ -1109,11 +1109,31 @@ p::first-letter { }
 
 Проверьте результат через perfect pixel
  
+## Флексбокс. Знакомство
+### 1 Простая палитра [html](https://github.com/P0ZITIV-iwns/HTML/blob/main/Флексбокс/Task1/index1.html) [css](https://github.com/P0ZITIV-iwns/HTML/blob/main/Флексбокс/Task1/css/style1.css)
+Вам нужно с помощью флексбокса разложить цвета на палитре в точности как на образце.
+
+Используйте свойства: `display: flex`, `flex-direction`, `justify-content`, `align-items` и `align-self`.
+
+![](https://github.com/P0ZITIV-iwns/HTML/blob/main/img/1 (1).png?raw=true)
  
+### 2 Палитра посложнее [html](https://github.com/P0ZITIV-iwns/HTML/blob/main/Флексбокс/Task2/index2.html) [css](https://github.com/P0ZITIV-iwns/HTML/blob/main/Флексбокс/Task2/css/style2.css)
+Вам предстоит собрать ещё одну палитру с красками.
+
+На этот раз задача посложнее, так как красок больше, и на одной строке они не помещаются.
+
+Кроме того, порядок их следования немного изменён.
+
+У вас должен быть следующий результат
+
+![](https://github.com/P0ZITIV-iwns/HTML/blob/main/img/2 (1).png?raw=true)
  
- 
- 
- 
+### 3 Сложные палитры [html](https://github.com/P0ZITIV-iwns/HTML/blob/main/Флексбокс/Task3/index10.html) [css](https://github.com/P0ZITIV-iwns/HTML/blob/main/Флексбокс/Task3/css/style10.css)
+Вам предстоит снова собирать палитру. Да не одну!
+
+Скачайте файлы. У вас должен получиться следующий результат: Проверьте его через perfect pixel.
+
+![](https://github.com/P0ZITIV-iwns/HTML/blob/main/img/3 (1).png?raw=true)
  
  
  

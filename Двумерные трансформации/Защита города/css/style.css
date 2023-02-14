@@ -1,0 +1,12 @@
+.wizard {
+  top: 245px;
+  left: 60px;
+}
+
+.fence-1 {
+	transform: rotate(90deg) translate(-25px, -50px);
+}
+
+.fence-2 {
+  transform: rotate(90deg) translate(90px, -160px);
+}

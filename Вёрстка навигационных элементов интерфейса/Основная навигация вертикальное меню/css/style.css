@@ -1,0 +1,185 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFCFA;
+    margin-top: 0px;
+}
+
+.container {
+    display: flex;
+    width: 1366px;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: #FFFCFA;
+}
+
+nav {
+    background-color: #343434;
+    padding-left: 98px;
+    padding-top: 4px;
+    min-width: 170px;
+    flex-shrink: 0;
+    border-top: 1px solid #FFFCFA;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.main-nav ul + ul::before {
+    content: "";
+    position: absolute;
+    left: -98px;
+    right: -30px;
+    width: 268px;
+    top: 0;
+    display: block;
+    height: 1px;
+    background-color: #FFFCFA;
+    opacity: 0.3;
+}
+
+.main-nav > ul {
+    position: relative;
+}
+
+.nav-list-dishes, .nav-list-add {
+    padding-top: 21px;
+    margin-bottom: 0px;
+    margin-top: 4px;
+}
+
+.nav-list-social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-bottom: 0px;
+    margin-top: 4px;
+    max-width: 100px;
+    height: 18px;
+}
+
+.main {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.page-header {
+    display: block;
+    position: relative;
+    padding-bottom: 28px;
+}
+
+.page-header::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #343434;
+    opacity: 0.3;
+}
+
+.logo {
+    display: block;
+}
+
+article {
+    display: flex;
+    margin-top: 30px;
+    width: 970px;
+}
+
+.article-image {
+    position: relative;
+    width: 470px;
+    height: 290px;
+    flex-shrink: 0;
+    margin-right: 30px;
+}
+
+.article-image img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.breadcrumbs {
+    line-height: 21px;
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    height: 21px;
+}
+
+.breadcrumbs li + li::before {
+    color: #343434;
+    content: "\00a0/\00a0";
+}
+
+.breadcrumbs a {
+    color: rgba(52, 52, 52);
+}
+
+.breadcrumbs .active {
+    opacity: 0.5;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 42px;
+    color: #343434;
+    font-weight: 600;
+    width: 378px;
+    margin: 0;
+}
+
+p {
+    font-size: 20px;
+    line-height: 28px;
+    color: #343434;
+    margin: 20px 0;
+    white-space: wrap;
+}
+
+li {
+    padding-bottom: 15px;
+    height: 25px;
+}
+
+a {
+    display: inline-block;
+    color: #FFFCFA;
+    text-decoration: none;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+a:hover,
+a:focus {
+    opacity: 0.6;
+}
+
+.nav-list-dishes > .active > a {
+    padding-bottom: 3px;
+    font-weight: 700;
+    border-bottom: 2px solid #FAE100;
+    opacity: 1;
+}

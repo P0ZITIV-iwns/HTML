@@ -1,0 +1,132 @@
+body {
+    width: 1366px;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #161517;
+    min-width: 1366px;
+}
+
+header {
+    background-color: #F8F7FD;
+}
+
+.header-nav {
+    margin-left: 98px;
+    margin-right: 98px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 17px 0 10px 0;
+}
+
+.header-nav-logo {
+
+    align-items: center;
+    width: 70px;
+    margin-right: 25px;
+    padding: 5px 0px;
+    opacity: 1;
+    transition: opacity 0.3s;
+    margin-top: -2px;
+}
+
+.header-nav-logo:hover,
+.header-nav-logo:focus {
+    opacity: 0.6;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.navigation-list, .navigation-sign-list {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-left: 0;
+    margin-top: 9px;
+    
+}
+
+.navigation-sign-list {
+    margin-left: auto;
+    
+}
+
+.navigation-list-item {
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+.navigation-list-item:nth-child(2) {
+    margin-left: 0;
+    margin-right: 16px;
+}
+
+.navigation-list-item:nth-child(3) {
+    margin-left: 0;
+    margin-right: 16px;
+}
+
+.navigation-list-item:nth-child(6) {
+    margin-left: 0;
+    margin-right: 6px;
+}
+
+.navigation-list-item:hover {
+    color: #8400ff;
+}
+
+.active {
+   color: #0F00B6;
+}
+
+a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    padding: 5px;
+}
+
+a.button {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 35px;
+    height: 35px;
+    padding: 0 23px;
+}
+
+a.button-outline {
+    max-width: 86px;
+    margin-right: 25px; 
+    border: 2px solid #0F00B6;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+a.button-outline:hover {
+    border: 2px solid #8400ff;
+    color: #8400ff;
+}
+
+a.button-filled {
+    max-width: 146px;
+    color: #F8F7FD;
+    background-color: #0F00B6;
+    border: 2px solid #0F00B6;
+}
+
+a.button-filled:hover {
+    border: 2px solid #0F00B6;
+    background-color: #8400ff;
+}

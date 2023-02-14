@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 21</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/outlines.css">
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Заявление на получение визы</legend>
+            <label for="passport-field-id">Номер котопаспорта</label>
+            <input type="text" name="passport" id="passport-field-id" placeholder="Формат номера ХХХ-ХХХХХ" pattern="[0-9]{3}-[0-9]{5}" autocomplete="off">
+            <label for="tel-field-id">Номер телефона</label>
+            <input type="tel" name="tel" id="tel-field-id" placeholder="Формат номера Х-ХХХ-ХХХ" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" tabindex="2">
+            <div class="half-width">
+                <label for="email-field-id">Email</label>
+                <input type="email" name="email" id="email-field-id" required autocomplete="on" tabindex="3">
+            </div>
+            <div class="half-width">
+                <label for="website-field-id">Личный сайт</label>
+                <input type="url" name="website" id="website-field-id" required readonly>
+            </div>
+            <div class="one-third-width">
+                <label for="color-field-id">Окрас</label>
+                <input type="color" name="color" id="color-field-id">
+            </div>
+            <div class="two-third-width">
+                <label for="food-field-id">Любимая еда</label>
+                <select name="food" id="food-field-id" disabled>
+                    <optgroup label="Мясо">
+                        <option value="1">Говядина</option>
+                        <option value="2">Телятина</option>
+                        <option value="3">Курица</option>
+                    </optgroup>
+                    <optgroup label="Рыба">
+                        <option value="4">Норвежский лосось</option>
+                        <option value="5">Карась</option>
+                        <option value="6">Морской окунь</option>
+                    </optgroup>
+                </select>
+            </div>
+        </fieldset>
+        <div class="buttons">
+            <input type="submit" value="Оформить">
+        </div>
+    </form>
+</body>
+</html>

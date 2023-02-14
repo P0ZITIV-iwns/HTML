@@ -1,0 +1,14 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.letter {
+  color: red;
+  font-size: 200%;
+  font-family: serif;
+  position: relative;
+  top: 5px;
+}
+.aquo {
+  font-size: 200%;
+  font-family: serif;
+}

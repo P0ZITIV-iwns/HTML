@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 19</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/outlines.css">
+</head>
+<body>
+    <form action="#" method="post">
+        <label for="name-field-id">Имя</label>
+        <input type="text" name="username" id="name-field-id" value="Кекс">
+
+        <label for="address-field-id">Адрес доставки</label>
+        <textarea name="address" id="address-field-id" cols="30" rows="2">ул. Хвостенко, д. 1</textarea>
+
+        <div class="half-width">
+            <label for="date-field-id">Дата доставки</label>
+            <input type="date" name="date" id="date-field-id" value="2014-12-12">
+
+            <label for="food-field-id">Блюдо</label>
+            <input type="text" list="food" name="food" id="food-field-id" value="Курочка">
+            <datalist id="food">
+                <option value="Мясо"></option>
+                <option value="Рыба"></option>
+                <option value="Курочка"></option>
+                <option value="Индейка"></option>
+                <option value="Мыши"></option>
+                <option value="Молоко"></option>
+            </datalist>
+        </div>
+
+        <div class="half-width">
+            <label for="time-field-id">Дата доставки</label>
+            <input type="time" name="time" id="time-field-id" value="12:00">
+
+            <label for="count-field-id">Блюдо</label>
+            <input type="number" min="5" max="50" step="5" name="count" id="count-field-id" value="15">
+        </div>
+
+        <div class="buttons">
+            <input type="submit" value="Заказать">
+        </div>
+
+    </form>
+</body>
+</html>

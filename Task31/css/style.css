@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: medium;
+}
+
+header {
+    background-image: url("../img/bg-partnership.svg");
+    background-color: #4a87fa;
+    color: #ffffff;
+}
+
+.skill-info {
+    width: 50%;
+    margin: auto;
+}
+
+.profile-info {
+    width: 50%;
+    margin: auto;
+    color: #FFFFFF;
+}
+
+img {
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.full {
+    background-color: rgb(232, 232, 232);
+    color: #ffffff;
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+
+.html {
+    background-color: rgb(71, 187, 82);
+    width: 60%;
+    padding: 5px;
+}
+
+.css {
+    background-color: rgb(68, 112, 196);
+    width: 20%;
+    padding: 5px;
+    
+}
+
+.js {
+    background-color: rgb(68, 112, 196);
+    width: 10%;
+    padding: 5px;
+    
+}

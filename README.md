@@ -1115,7 +1115,7 @@ p::first-letter { }
 
 Используйте свойства: `display: flex`, `flex-direction`, `justify-content`, `align-items` и `align-self`.
 
-![](https://github.com/P0ZITIV-iwns/HTML/blob/main/img/1%20(1).png?raw=true)
+![](https://github.com/P0ZITIV-iwns/HTML/blob/main/img/1f.png?raw=true)
  
 ### 2 Палитра посложнее [html](https://github.com/P0ZITIV-iwns/HTML/blob/main/Флексбокс/Task2/index2.html) [css](https://github.com/P0ZITIV-iwns/HTML/blob/main/Флексбокс/Task2/css/style2.css)
 Вам предстоит собрать ещё одну палитру с красками.
@@ -1126,14 +1126,14 @@ p::first-letter { }
 
 У вас должен быть следующий результат
 
-![](https://github.com/P0ZITIV-iwns/HTML/blob/main/img/2%20(1).png?raw=true)
+![](https://github.com/P0ZITIV-iwns/HTML/blob/main/img/2f.png?raw=true)
  
 ### 3 Сложные палитры [html](https://github.com/P0ZITIV-iwns/HTML/blob/main/Флексбокс/Task3/index10.html) [css](https://github.com/P0ZITIV-iwns/HTML/blob/main/Флексбокс/Task3/css/style10.css)
 Вам предстоит снова собирать палитру. Да не одну!
 
 Скачайте файлы. У вас должен получиться следующий результат: Проверьте его через perfect pixel.
 
-![](https://github.com/P0ZITIV-iwns/HTML/blob/main/img/3%20(1).png?raw=true)
+![](https://github.com/P0ZITIV-iwns/HTML/blob/main/img/3f.png?raw=true)
  
  
  

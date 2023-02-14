@@ -1091,7 +1091,7 @@ p::first-letter { }
 
 У вас должен получиться следующий результат
 
-![](https://github.com/P0ZITIV-iwns/HTML/blob/main/img/16_1.png?raw=true)
+![](https://github.com/P0ZITIV-iwns/HTML/blob/main/img/16.png?raw=true)
  
 ### 17 Итоговое задание
 Задание

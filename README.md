@@ -1268,6 +1268,7 @@ p::first-letter { }
 Вам предстоит расположить карты веером, пользуясь функциями `translate`, `scale` и `rotate`.
 
 Подсказка: значения функций rotate и translate кратны `5` (если трансформации прописывать в порядке: rotate, scale, translate), а `scale` уменьшает карты с шагом `10%`.
+ 
 У вас должен получиться следующий результат
 
 ![](https://github.com/P0ZITIV-iwns/HTML/blob/main/img/20.png?raw=true)   

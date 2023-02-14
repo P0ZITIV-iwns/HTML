@@ -1,8 +1,0 @@
-ul:only-of-type {
-    padding: 10px;
-    border: dashed 2px #55bb99;
-}
-
-p:only-of-type {
-    color: #339966;
-}

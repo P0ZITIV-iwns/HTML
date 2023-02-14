@@ -1,4 +1,87 @@
 # HTML
+## Содержание
+
+[Основны HTML](https://github.com/P0ZITIV-iwns/HTML#основы-html)
+1. [Основные теги для семантической разметки](https://github.com/P0ZITIV-iwns/HTML#1-основные-теги-для-семантической-разметки-html-css)
+2. [Вложенные списки](https://github.com/P0ZITIV-iwns/HTML#2-вложенные-списки-html)
+3. [Все виды списков](https://github.com/P0ZITIV-iwns/HTML#3-все-виды-списков-html)
+4. [Тег pre и спецсимволы](https://github.com/P0ZITIV-iwns/HTML#4-тег-pre-и-спецсимволы-html-css)
+5. [Использование тегов для цитат](https://github.com/P0ZITIV-iwns/HTML#5-использование-тегов-для-цитат-html)
+6. [Использование ссылок](https://github.com/P0ZITIV-iwns/HTML#6-использование-ссылок)
+7. [Использование тегов правки текстов](https://github.com/P0ZITIV-iwns/HTML#7-использование-тегов-правки-текстов-html-css)
+8. [Вложенные списки и заголовки](https://github.com/P0ZITIV-iwns/HTML#8-вложенные-списки-и-заголовки-html-css)
+9. [Использование тега span](https://github.com/P0ZITIV-iwns/HTML#9-использование-тега-span-html-css)
+10. [Использование тегов форматирования текстов](https://github.com/P0ZITIV-iwns/HTML#10-использование-тегов-форматирования-текстов-html-css)
+11. [Список правок](https://github.com/P0ZITIV-iwns/HTML#11-список-правок-html-css)
+12. [Формула](https://github.com/P0ZITIV-iwns/HTML#12-формула-html-css)
+13. [Использование изображений](https://github.com/P0ZITIV-iwns/HTML#13-использование-изображений-html-css)
+14. [Простейшие таблицы](https://github.com/P0ZITIV-iwns/HTML#14-простейшие-таблицы-html-css)
+15. [Посещения по городам](https://github.com/P0ZITIV-iwns/HTML#15-посещения-по-городам-html-css)
+16. [Объединение ячеек](https://github.com/P0ZITIV-iwns/HTML#16-объединение-ячеек-html-css)
+17. [Итоговая таблица](https://github.com/P0ZITIV-iwns/HTML#17-итоговая-таблица-html-css)
+18. [Форма логина](https://github.com/P0ZITIV-iwns/HTML#18-форма-логина-html-css)
+19. [Форма доставки](https://github.com/P0ZITIV-iwns/HTML#19-форма-доставки-html-css)
+20. [Форма бронирования](https://github.com/P0ZITIV-iwns/HTML#20-форма-бронирования-html-css)
+21. [Форма личных данных](https://github.com/P0ZITIV-iwns/HTML#21-форма-личных-данных-html-css)
+22. [Итоговая форма](https://github.com/P0ZITIV-iwns/HTML#22-итоговая-форма-html-css)
+23. [Хьюстон](https://github.com/P0ZITIV-iwns/HTML#23-хьюстон-html-css)
+
+[CSS](https://github.com/P0ZITIV-iwns/HTML#css)
+
+24. [Селекторы](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#24-селекторы-html-css)
+25. [Динамические эффекты с помощью :hover](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#25-динамические-эффекты-с-помощью-hover-html-css)
+26. [Итоговое задание](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#26-итоговое-задание-html-css)
+27. [Списки дел](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#27-списки-дел-html-css)
+28. [Записи в блоге](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#28-записи-в-блоге-html-css)
+29. [Оформление галереи](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#29-оформление-галереи-html-css)
+30. [Наследование и каскадирование](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#30-наследование-и-каскадирование-html-css)
+31. [Оформление текста](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#31-оформление-текста-html-css) 
+32. [Стилизация текста](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#32-стилизация-текста-html-css)
+33. [Пофиксить, что можно](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#33-пофиксить-что-можно-html-css)
+34. [Задание на размеры, отступы, рамки](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#34-задание-на-размеры-отступы-рамки-html-css)
+35. [Задание на отступы и границы](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#35-задание-на-отступы-и-границы-html-css)
+36. [Итоговое задание](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#36-итоговое-задание-html-css)
+37. [Котокомикс](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#37-котокомикс-html-css)
+38. [CAT Academy](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#38-cat-academy-html-css)
+
+[Псевдоклассы и псевдоэлементы](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#псевдоклассы-и-псевдоэлементы)
+
+1. [Объединение селекторов](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#1-объединение-селекторов-html-css)
+2. [Псевдокласс :not](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#2-псевдокласс-not-html-css)
+3. [Комбинируем :not](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#3-комбинируем-not-html-css)
+4. [Псевдокласс :nth-last-child](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#4-псевдокласс-nth-last-child-html-css)
+5. [Псевдокласс :first-of-type](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#5-псевдокласс-first-of-type-html-css)
+6. [Псевдокласс :last-of-type](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#6-псевдокласс-last-of-type-html-css)
+7. [Псевдокласс :nth-of-type](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#7-псевдокласс-nth-of-type-html-css)
+8. [Псевдокласс :nth-last-of-type](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#8-псевдокласс-nth-last-of-type-html-css)
+9. [Задание первая раскладка](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#9-задание-первая-раскладка-html-css)
+10. [Селектор последующих элементов](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#10-селектор-последующих-элементов-html-css)
+11. [Псевдокласс :empty](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#11-псевдокласс-empty-html-css)
+12. [Псевдокласс :only-child](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#12-псевдокласс-only-child-html-css)
+13. [Псевдокласс :only-of-type](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#13-псевдокласс-only-of-type-html-css)
+14. [Псевдоэлементы ::before и ::after](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#14-псевдоэлементы-before-и-after-html-css)
+15. [Фон для псевдоэлементов](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#15-фон-для-псевдоэлементов-html-css)
+16. [Псевдоэлементы ::first-line и ::first-letter](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#16-псевдоэлементы-first-line-и-first-letter-html-css)
+17. [Итоговое задание](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#17-итоговое-задание-html-css)
+
+[Флексбокс. Знакомство](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#флексбокс-знакомство)
+
+1. [Простая палитра](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#1-простая-палитра-html-css)
+2. [Палитра посложнее](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#2-палитра-посложнее-html-css)
+3. [Сложные палитры](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#3-сложные-палитры-html-css)
+
+[Двумерные трансформации](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#двумерные-трансформации)
+
+1. [Защита города](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#1-защита-города-html-css)
+2. [Таинственная карта](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#2-таинственная-карта-html-css)
+3. [Расколотый кристалл](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#3-расколотый-кристалл-html-css)
+4. [Центровка с помощью transform: translate](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#4-центровка-с-помощью-transform-translate-html-css)
+5. [Поворот текста в блоках](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#5-поворот-текста-в-блоках-html-css)
+6. [Поворот текста в фоне](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#6-поворот-текста-в-фоне-html-css)
+7. [Нестандартные тени](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#7-нестандартные-тени-html-css)
+8. [«Стопка» карт](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#8-стопка-карт-html-css)
+9. [Раскладка карт](https://github.com/P0ZITIV-iwns/HTML/blob/main/README.md#9-раскладка-карт-html-css)
+
 ## Основы HTML
 ### 1 Основные теги для семантической разметки [html](https://github.com/P0ZITIV-iwns/HTML/blob/main/Task1/index.html) [css](https://github.com/P0ZITIV-iwns/HTML/blob/main/Task1/css/outlines.css)
 Ход работы
@@ -375,7 +458,7 @@
 ![](https://github.com/P0ZITIV-iwns/HTML/blob/main/img/po23.png?raw=true)
 
 ## CSS
-### 24 Селекторы [html](https://github.com/P0ZITIV-iwns/HTML/blob/main/Task24/index.html) [css](https://github.com/P0ZITIV-iwns/HTML/blob/main/Task24/css/style.css)
+### 24 Селекторы ### 20 Форма бронирования [html](https://github.com/P0ZITIV-iwns/HTML/blob/main/Task24/index.html) [css](https://github.com/P0ZITIV-iwns/HTML/blob/main/Task24/css/style.css)
 Исправьте таблицу результатов:
 1. Нижние рамки должны остаться только у элементов списка первого уровня.
 2. Выделение жирным должно остаться только у фамилий.
@@ -912,7 +995,7 @@ ul:empty {
 
 ![](https://github.com/P0ZITIV-iwns/HTML/blob/main/img/11.png?raw=true)
 
-### 12 Псевдокласс `:only-child` [html](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task12/index12.html) [css](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task12/css/style12.css)
+### 12 Псевдокласс :only-child [html](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task12/index12.html) [css](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task12/css/style12.css)
 Псевдокласс `:only-child` пригодится, когда нужно прописать индивидуальные стили для элемента, который является единственным дочерним элементом внутри родительского контейнера.
 
 Пример:

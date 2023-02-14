@@ -312,7 +312,7 @@
 
 Проверьте валидатором html и css. Используйте perfect pixel for chrome для проверки вашей верстки на совпадение с рисунком (смещение по Х=0, по Y = -1). Результат покажите преподавателю.
 
-### 21 Форма личных данных ### 20 Форма бронирования [html](https://github.com/P0ZITIV-iwns/HTML/blob/main/Task21/index.html) [css](https://github.com/P0ZITIV-iwns/HTML/blob/main/Task21/css/outlines.css)
+### 21 Форма личных данных [html](https://github.com/P0ZITIV-iwns/HTML/blob/main/Task21/index.html) [css](https://github.com/P0ZITIV-iwns/HTML/blob/main/Task21/css/outlines.css)
 В своей рабочей папке создайте папку для выполнения задания. 
 
 Создайте форму, внешний вид которой представлен на рисунке
@@ -346,7 +346,7 @@
 
 Проверьте валидатором html и css. Используйте perfect pixel for chrome для проверки вашей верстки на совпадение с рисунком (смещение по Х=781, по Y = -1). Результат покажите преподавателю.
 
-### 22 Итоговая форма ### 20 Форма бронирования [html](https://github.com/P0ZITIV-iwns/HTML/blob/main/Task22/index.html) [css](https://github.com/P0ZITIV-iwns/HTML/blob/main/Task22/css/outlines.css)
+### 22 Итоговая форма [html](https://github.com/P0ZITIV-iwns/HTML/blob/main/Task22/index.html) [css](https://github.com/P0ZITIV-iwns/HTML/blob/main/Task22/css/outlines.css)
 В своей рабочей папке создайте папку для выполнения задания. 
 
 Создайте форму, внешний вид которой представлен на рисунке
@@ -355,7 +355,7 @@
 
 Проверьте верстку и стили валидатором. Соответствие верстки проверьте через perfect pixel  (значение по х должно равняться 702, по y значение должно быть -3). Результат покажите преподавателю.
 
-### 23 Хьюстон ### 20 Форма бронирования [html](https://github.com/P0ZITIV-iwns/HTML/blob/main/Task23/index.html) [css](https://github.com/P0ZITIV-iwns/HTML/blob/main/Task23/css/outlines.css)
+### 23 Хьюстон [html](https://github.com/P0ZITIV-iwns/HTML/blob/main/Task23/index.html) [css](https://github.com/P0ZITIV-iwns/HTML/blob/main/Task23/css/outlines.css)
 Выполните семантическую верстку и стилизацию страницы Хьюстон.
 
 Требования:
@@ -634,7 +634,7 @@ if (firstSelector && secondSelector) { ... }
 
 ![](https://github.com/P0ZITIV-iwns/HTML/blob/main/img/1.png?raw=true)
 
-### 2 Псевдокласс :not [html](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task1/index2.html) [css](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task1/css/style.css)
+### 2 Псевдокласс :not [html](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task2/index2.html) [css](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task2/css/style.css)
 Псевдокласс `:not(селектор)` является отрицающим селектором. С его помощью можно выбрать элементы, которые НЕ содержат указанный селектор:
 ```
 li:not(:last-child) { }
@@ -667,7 +667,7 @@ if (!selector) { ... }
 
 ![](https://github.com/P0ZITIV-iwns/HTML/blob/main/img/2.png?raw=true)
 
-### 3 Комбинируем :not
+### 3 Комбинируем :not [html](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task3/index2.html) [css](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task3/css/style.css)
 Отрицающий селектор `:not`, как и любые другие селекторы, можно комбинировать с другими. Например:
 ```
 li:not(:first-child):not(:last-child) { }
@@ -689,7 +689,7 @@ li:not(:first-child):not(:last-child) { }
 
 ![](https://github.com/P0ZITIV-iwns/HTML/blob/main/img/3.png?raw=true)
 
-### 4 Псевдокласс :nth-last-child
+### 4 Псевдокласс :nth-last-child [html](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task4/index2.html) [css](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task4/css/style.css)
 В первой части про селекторы мы уже рассматривали псевдокласс `:nth-child`, сейчас посмотрим на `:nth-last-child`.
 
 Псевдокласс `:nth-last-child` используется для добавления стиля к элементам на основе нумерации в дереве элементов. В отличие от псевдокласса `:nth-child`, отсчет ведется не от первого элемента, а от последнего. Вот и все различия.
@@ -708,7 +708,7 @@ li:not(:first-child):not(:last-child) { }
 
 ![](https://github.com/P0ZITIV-iwns/HTML/blob/main/img/4.png?raw=true)
  
-### 5 Псевдокласс :first-of-type
+### 5 Псевдокласс :first-of-type [html](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task5/index5.html) [css](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task5/css/style5.css)
 Псевдокласс `:first-of-type` очень похож на `:first-child`. Он выбирает первый дочерний элемент родителя, только с учетом типа, то есть тега, элементов.
 
 Например, в этом задании перед списками с картами есть блок с текстом. У списков и у блока с текстом общий родитель — `body`.
@@ -749,7 +749,7 @@ ul:first-of-type {
 
 ![](https://github.com/P0ZITIV-iwns/HTML/blob/main/img/5.png?raw=true)
  
-### 6 Псевдокласс :last-of-type 
+### 6 Псевдокласс :last-of-type [html](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task6/index6.html) [css](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task6/css/style6.css)
 В предыдущем задании мы рассмотрели псевдокласс `:first-of-type`.
 
 Псевдокласс `:last-of-type` работает аналогично, только выбирает последний дочерний элемент родителя с учетом типа.
@@ -775,7 +775,7 @@ ul:last-of-type {
 
 ![](https://github.com/P0ZITIV-iwns/HTML/blob/main/img/6.png?raw=true)
 
-### 7 Псевдокласс :nth-of-type
+### 7 Псевдокласс :nth-of-type [html](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task7/index5.html) [css](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task7/css/style7.css)
 Псевдокласс `:nth-of-type` работает почти так же, как и `:nth-child`. Разница заключается в том, что он учитывает тег элемента.
 
 Если в текущем задании мы используем такие селекторы:
@@ -801,7 +801,7 @@ ul:nth-of-type(2) { }
 
 ![](https://github.com/P0ZITIV-iwns/HTML/blob/main/img/7.png?raw=true)
 
-### 8 Псевдокласс :nth-last-of-type
+### 8 Псевдокласс :nth-last-of-type [html](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task8/index6.html) [css](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task8/css/style8.css)
 Элементы выбираются по их расположению, отсчет ведется от конца, учитывается тег элемента.
 
 Пример записи:
@@ -826,7 +826,7 @@ ul:nth-last-of-type(2) { }
 
 ![](https://github.com/P0ZITIV-iwns/HTML/blob/main/img/8.png?raw=true)
 
-### 9 Задание первая раскладка
+### 9 Задание первая раскладка [html](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task9/index9.html) [css](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task9/css/style9.css)
 Вам не надо менять HTML-код, все CSS-правила уже содержат правильные стили.
 
 Единственное, что от вас требуется — всего лишь подобрать нужные селекторы для каждого CSS-правила.
@@ -846,7 +846,7 @@ ul:nth-last-of-type(2) { }
 
 Проверьте результат через perfect pixel
 
-### 10 Селектор последующих элементов
+### 10 Селектор последующих элементов [html](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task10/index2.html) [css](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task10/css/style10.css)
 Ранее мы уже рассматривали соседние селекторы, которые записываются как `селектор1 + селектор2`.
 
 Есть похожий селектор `селектор1 ~ селектор2`. Стили применятся к элементу, подходящему под `селектор2`, только если перед ним расположен элемент, подходящий под `селектор1`. Оба элемента должны принадлежать одному родителю.
@@ -890,7 +890,7 @@ ul:nth-last-of-type(2) { }
 
 ![](https://github.com/P0ZITIV-iwns/HTML/blob/main/img/10.png?raw=true)
 
-### 11 Псевдокласс :empty
+### 11 Псевдокласс :empty [html](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task11/index11.html) [css](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task11/css/style11.css)
 Псевдокласс `:empty`, выбирает только те теги, у которых нет дочерних элементов (в том числе текстовых узлов). Учтите, что даже переход на новую строку считается текстовым узлом, помните об этом в процессе проектирования структуры страницы.
 
 Пример:
@@ -912,7 +912,7 @@ ul:empty {
 
 ![](https://github.com/P0ZITIV-iwns/HTML/blob/main/img/11.png?raw=true)
 
-### 12 Псевдокласс `:only-child`
+### 12 Псевдокласс `:only-child` [html](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task12/index12.html) [css](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task12/css/style12.css)
 Псевдокласс `:only-child` пригодится, когда нужно прописать индивидуальные стили для элемента, который является единственным дочерним элементом внутри родительского контейнера.
 
 Пример:
@@ -936,7 +936,7 @@ li:only-child {
 
 ![](https://github.com/P0ZITIV-iwns/HTML/blob/main/img/12.png?raw=true)
 
-### 13 Псевдокласс :only-of-type
+### 13 Псевдокласс :only-of-type [html](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task13/index13.html) [css](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task13/css/style13.css)
 Псевдокласс `:only-of-type` работает почти так же, как и `:only-child`. Отличие состоит в том, что он учитывает тип элемента.
 
 Пример:
@@ -957,7 +957,7 @@ p:only-of-type {
 
 ![](https://github.com/P0ZITIV-iwns/HTML/blob/main/img/13.png?raw=true)
 
-### 14 Псевдоэлементы ::before и ::after
+### 14 Псевдоэлементы ::before и ::after [html](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task14/index14.html) [css](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task14/css/style14.css)
 **Псевдоэлемент ::before**
 Псевдоэлемент `before` позволяет с помощью CSS добавить псевдотег внутрь другого элемента и оформить его. Содержимое псевдотега задаётся с помощью свойства `content`.
 
@@ -1042,7 +1042,7 @@ p:only-of-type {
 
 ![](https://github.com/P0ZITIV-iwns/HTML/blob/main/img/14_1.png?raw=true)
  
-### 15 Фон для псевдоэлементов
+### 15 Фон для псевдоэлементов [html](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task15/index15.html) [css](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task15/css/style15.css)
 Задание
 
 Создайте страницу с картой, внешний вид которой представлен на рисунке
@@ -1067,7 +1067,7 @@ p:only-of-type {
 
 ![](https://github.com/P0ZITIV-iwns/HTML/blob/main/img/15_1.png?raw=true)
  
-### 16 Псевдоэлементы ::first-line и ::first-letter
+### 16 Псевдоэлементы ::first-line и ::first-letter [html](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task16/index16.html) [css](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task16/css/style16.css)
 Псевдоэлемент `first-line` задает стиль первой строки форматированного текста. Длина этой строки зависит от многих факторов, таких как используемый шрифт, размер окна браузера, ширина блока, языка и так далее. В правилах стиля допустимо использовать только свойства, относящиеся к шрифту, изменению цвета текста и фона.
 
 Пример использования:
@@ -1093,7 +1093,7 @@ p::first-letter { }
 
 ![](https://github.com/P0ZITIV-iwns/HTML/blob/main/img/16.png?raw=true)
  
-### 17 Итоговое задание
+### 17 Итоговое задание [html](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task17/index17.html) [css](https://github.com/P0ZITIV-iwns/HTML/blob/main/Псевдоклассы%20и%20псевдоэлементы/Task17/css/style17.css)
 Задание
 
 Вам необходимо сверстать две карты: червового туза и пиковую двойку.

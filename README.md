@@ -375,7 +375,7 @@
 ![](https://github.com/P0ZITIV-iwns/HTML/blob/main/img/po23.png?raw=true)
 
 ## CSS
-### 24 Селекторы ### 20 Форма бронирования [html](https://github.com/P0ZITIV-iwns/HTML/blob/main/Task24/index.html) [css](https://github.com/P0ZITIV-iwns/HTML/blob/main/Task24/css/style.css)
+### 24 Селекторы [html](https://github.com/P0ZITIV-iwns/HTML/blob/main/Task24/index.html) [css](https://github.com/P0ZITIV-iwns/HTML/blob/main/Task24/css/style.css)
 Исправьте таблицу результатов:
 1. Нижние рамки должны остаться только у элементов списка первого уровня.
 2. Выделение жирным должно остаться только у фамилий.

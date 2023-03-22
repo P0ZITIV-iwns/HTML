@@ -8,10 +8,9 @@ export default class ProductCard {
   }
 
   htmlCard(){
-    this.elem = document.createElement('div');
-    this.elem.classList.add('card');
-    this.elem.innerHTML = 
+    this.elem = createElement(
     `
+    <div class="card">
       <div class="card__top">
           <img src="/assets/images/products/${this.product.image}" class="card__image" alt="product">
           <span class="card__price">€${this.product.price.toFixed(2)}</span>
@@ -22,11 +21,12 @@ export default class ProductCard {
           <img src="/assets/images/icons/plus-icon.svg" alt="icon">
         </button>
       </div>
-    `;
+    </div>
+    `);
   }
   
   addClick(){
-    this.elem.addEventListener('click', (event) => {
+    const add = (event) => {
       if (event.target.closest('.card__button')){
         this.elem.dispatchEvent
         (
@@ -36,6 +36,7 @@ export default class ProductCard {
           })
         );
       }
-    });
+    }
+    this.elem.addEventListener('click', add);
   }
 }

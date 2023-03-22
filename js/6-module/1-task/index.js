@@ -48,8 +48,10 @@ export default class UserTable {
   
   deleteRowClick(){
     for (let button of this.elem.querySelectorAll('button')){
-      button.addEventListener('click', (event) => 
-        event.target.closest('tr').remove());
+      const deleteRow = (event) => {
+        event.target.closest('tr').remove();
+      }
+      button.addEventListener('click', deleteRow);
     }
   }
 }

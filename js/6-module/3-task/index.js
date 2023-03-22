@@ -9,32 +9,32 @@ export default class Carousel {
   }
 
   htmlCarousel(){
-    this.elem = document.createElement('div');
-    this.elem.classList.add('carousel');
-    this.elem.innerHTML = 
+    this.elem = createElement(
     `
-    <div class="carousel__arrow carousel__arrow_right">
-      <img src="/assets/images/icons/angle-icon.svg" alt="icon">
-    </div>
-    <div class="carousel__arrow carousel__arrow_left">
-      <img src="/assets/images/icons/angle-left-icon.svg" alt="icon">
-    </div>
-    <div class="carousel__inner">
-    ${this.slides.map(slide =>
-      `
-      <div class="carousel__slide" data-id="${slide.id}">
-        <img src="/assets/images/carousel/${slide.image}" class="carousel__img" alt="slide">
-        <div class="carousel__caption">
-          <span class="carousel__price">€${slide.price.toFixed(2)}</span>
-          <div class="carousel__title">${slide.name}</div>
-          <button type="button" class="carousel__button">
-            <img src="/assets/images/icons/plus-icon.svg" alt="icon">
-          </button>
-        </div>
+    <div class="carousel">
+      <div class="carousel__arrow carousel__arrow_right">
+        <img src="/assets/images/icons/angle-icon.svg" alt="icon">
       </div>
-      `).join('')}
-    </div>   
-    `;
+      <div class="carousel__arrow carousel__arrow_left">
+        <img src="/assets/images/icons/angle-left-icon.svg" alt="icon">
+      </div>
+      <div class="carousel__inner">
+      ${this.slides.map(slide =>
+        `
+        <div class="carousel__slide" data-id="${slide.id}">
+          <img src="/assets/images/carousel/${slide.image}" class="carousel__img" alt="slide">
+          <div class="carousel__caption">
+            <span class="carousel__price">€${slide.price.toFixed(2)}</span>
+            <div class="carousel__title">${slide.name}</div>
+            <button type="button" class="carousel__button">
+              <img src="/assets/images/icons/plus-icon.svg" alt="icon">
+            </button>
+          </div>
+        </div>
+        `).join('')}
+      </div>   
+    </div>
+    `);
   }
 
   arrowClick(){
@@ -68,12 +68,12 @@ export default class Carousel {
           }
         }
       }
-      this.elem.querySelector(".carousel__inner").style.transform = 'translateX(' + translate + 'px)';
+      this.elem.querySelector(".carousel__inner").style.transform = `translateX(${translate}px)`;
     });
   }
 
   addClick(){
-    this.elem.addEventListener('click', (event) => {
+    const add = (event) => {
       let id = event.target.closest('.carousel__slide')
       if (event.target.closest('.carousel__button')){
         this.elem.dispatchEvent
@@ -84,6 +84,7 @@ export default class Carousel {
         })
         );
       }
-    });
+    }
+    this.elem.addEventListener('click', add)
   }
 }
